@@ -3,6 +3,7 @@
   --logo-cl: #4d5ae5;
   --logo-span-cl: #2e2f42;
   --nav-cl: #2e2f42;
+  --nav-after-cl:#404BBF;
   --contacts-cl: #434455;
   --section-bcl: #2e2f42;
   --paragrah-cl: #434455;
@@ -121,6 +122,20 @@ img {
 }
 .nav-link:focus {
   color: #404bbf;
+}
+
+.current  {
+  position:relative;
+}
+.current::after {
+  position:absolute;
+  content:"";
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--nav-after-cl);
+  border-radius: 2px;
 }
 
 .address {
