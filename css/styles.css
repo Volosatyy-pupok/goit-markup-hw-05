@@ -123,7 +123,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--nav-cl);
-  transition: color var(--transition-dur-and-func);
+  transition: var(--transition-dur-and-func);
 }
 .nav-link:hover {
   color: #404bbf;
@@ -168,7 +168,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--contacts-cl);
   margin: 0 auto;
-  transition: color var(--transition-dur-and-func);
+  transition: var(--transition-dur-and-func);
 }
 .contacts:hover,
 .contacts:focus {
