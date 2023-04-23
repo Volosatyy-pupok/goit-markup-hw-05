@@ -219,12 +219,12 @@ img {
   color: #ffffff;
   margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
   transition: background-color var(--transition-dur-and-func);
 }
 .main-title-btn:hover,
 .main-title-btn:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .feature {
@@ -419,7 +419,7 @@ img {
   border-radius: 4px;
   color: var(--icons-cl);
   transition: border-color var(--transition-dur-and-func),
-    color var(--transition-dur-and-func);
+    color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
 }
 
 .customers-icon {
@@ -547,7 +547,8 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 0;
-  transition: background-color var(--transition-dur-and-func);
+  transition: background-color var(--transition-dur-and-func),
+    fill var(--transition-dur-and-func);
 }
 
 .modal-close-btn:hover,
@@ -586,7 +587,8 @@ img {
   border-radius: 4px;
   transition: border var(--transition-dur-and-func), color,
     var(--transition-dur-and-func),
-    background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+    background-color var(--transition-dur-and-func),
+    box-shadow var(--transition-dur-and-func);
   cursor: pointer;
 }
 
@@ -650,7 +652,8 @@ img {
   height: 100%;
   background-color: var(--overlay-bcl);
   transform: translate(0, 100%);
-  transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+  transition: background-color var(--transition-dur-and-func),
+    color var(--transition-dur-and-func);
 }
 
 .portfolio-container-list {
