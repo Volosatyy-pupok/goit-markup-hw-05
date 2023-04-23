@@ -418,7 +418,8 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: var(--icons-cl);
-  transition: border-color, color, fill, var(--transition-dur-and-func);
+  transition: border-color var(--transition-dur-and-func),
+    color var(--transition-dur-and-func);
 }
 
 .customers-icon {
@@ -546,7 +547,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 0;
-  transition: background-color, fill, var(--transition-dur-and-func);
+  transition: background-color var(--transition-dur-and-func);
 }
 
 .modal-close-btn:hover,
@@ -583,7 +584,9 @@ img {
   padding: 12px 24px;
   border: 1px solid var(--cl-btn-portfolio);
   border-radius: 4px;
-  transition: border, color, background-color, box-shadow, var(--transition-dur-and-func);
+  transition: border var(--transition-dur-and-func), color,
+    var(--transition-dur-and-func),
+    background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
   cursor: pointer;
 }
 
@@ -647,7 +650,7 @@ img {
   height: 100%;
   background-color: var(--overlay-bcl);
   transform: translate(0, 100%);
-  transition: background-color, color, var(--transition-dur-and-func);
+  transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
 }
 
 .portfolio-container-list {
